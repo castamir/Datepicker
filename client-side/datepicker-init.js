@@ -2,11 +2,6 @@ var unavailableDates;
 
 $(document).ready(function() {
     $("input.date").each(function() { // input[type=date] does not work in IE
-
-        if ($(this).hasClass("birhtdate")) {
-            return;
-        }
-
         var el = $(this);
         var value = el.val();
         var date = (value ? $.datepicker.parseDate($.datepicker.W3C, value) : null);
