@@ -1,0 +1,19 @@
+{
+    "name": "castamir/datepicker",
+    "description": "DatePicker control for Nette Framework and jQuery UI",
+    "license": ["MIT"],
+    "authors": [
+        {
+            "name": "Jan Tvrdík",
+            "homepage": "http://merxes.cz"
+        },
+        {
+            "name": "Miroslav Paulík",
+            "homepage": "https://github.com/castamir"
+        }
+    ],
+    "require": {
+        "php": ">= 5.3.0",
+        "nette/nette": "v2.1.0"
+    }
+}
